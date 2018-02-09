@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.content-img {
+    background: url('../assets/images/1.jpg')
+                 no-repeat;
+    background-size: cover;
+   /* background: rgba(0, 0, 0, 0.5);*/
+    width: 100%;
+    height: 50vh;
+}
+.transparent {
+    width: 100%;
+    position: fixed;
+    font-family: 'Gloria Hallelujah', cursive; 
+}
+h2 {
+    margin: 0;
+    color: #fff;
+}
+#border {
+    border: 0;
+}
+.navbar-default {
+    background:#0B5345 ;  
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
