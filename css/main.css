@@ -105,13 +105,15 @@ h2 {
 }
 .one {
    color: #000;
-    background: #e9c3b8ab;         
+    background: #e9c3b8ab; 
+    padding-left: 0;
+    padding-right: 0;        
 }
 .two {
   background: #204a55;
   color: #fff;
- /* padding-left: 0;
-  padding-right: 0;*/
+  padding-left: 0;
+  padding-right: 0;
 }
 .space {
     padding-left: 0;
