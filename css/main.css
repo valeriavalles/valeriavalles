@@ -32,7 +32,7 @@
 }
 h2 {
     margin: 0;
-    color: rgb(4, 114, 75);
+    color: #000;
 }
 #border {
     border: 0;
@@ -58,11 +58,10 @@ section {
     border-radius: 100%;
 }
 .margin {
+    font-family: 'Metrophobic', sans-serif;
     padding-top: 4%;
     padding-left: 0;
     padding-right: 0;
-   /* background: #fff;
-    overflow: hidden;*/
 }
 .content__inner {
     font-family: 'Love Ya Like A Sister', cursive;
@@ -72,10 +71,11 @@ section {
     border-radius: 5px;
     padding: 2%;
     overflow: hidden;
-    font-family: 'Love Ya Like A Sister', cursive;
+    font-family: 'Metrophobic', sans-serif;
 }
 .parrafo  {
-    margin-top: 6%;
+    margin-top: 1.5%;
+    font-size: 120%;
 }
 .margen {
     margin-top: 10%;
@@ -145,9 +145,10 @@ h2 {
     overflow: hidden;
     color: #fff;
 }
-/*.cont-contact h2 {
-    color: black;
-}*/
+.cont-contact h2 {
+    margin-top: 2%;
+    color:#fff;
+}
 .cont-contact img {
    /* background: rgb(189, 4, 96);*/
    background: #fff;
@@ -158,7 +159,7 @@ h2 {
 }
 .icon {
     font-weight: 500;
-    font-size: 50px;
+    font-size: 40px;
    /* background: rgb(2, 213, 117);*/
     color:rgb(2, 213, 117); 
     
@@ -172,6 +173,7 @@ h2 {
 .cont-icon a {
     text-decoration: none;
     list-style: none;
+    color:rgb(2, 213, 117);
 }
 
 
