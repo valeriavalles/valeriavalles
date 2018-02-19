@@ -14,7 +14,10 @@
 .navbar-default .navbar-nav > li > a:hover{
     color: rgb(2, 213, 117);
 }
-
+.logo {
+    width: 45px;
+    height:40px ;
+}
 .cont-present {
     text-align: center;
     margin-top: 15%;
