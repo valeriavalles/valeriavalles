@@ -7,7 +7,8 @@
     width: 100%;
     position: fixed;
     z-index: 1000;
-    font-family: 'Gloria Hallelujah', cursive; 
+   /* font-family: 'Gloria Hallelujah', cursive; */
+   font-family: 'Bree Serif', serif;
     
 }
 .navbar-default .navbar-nav > li > a:hover{
@@ -62,6 +63,14 @@ section {
     padding-top: 4%;
     padding-left: 0;
     padding-right: 0;
+    font-family: 'Metrophobic', sans-serif;
+    
+   /* background: #fff;
+    overflow: hidden;*/
+}
+.margin h2 {
+    font-weight: 700;
+    color: #000;
 }
 .content__inner {
     font-family: 'Love Ya Like A Sister', cursive;
@@ -74,8 +83,8 @@ section {
     font-family: 'Metrophobic', sans-serif;
 }
 .parrafo  {
-    margin-top: 1.5%;
-    font-size: 120%;
+    margin-top: 1.8%;
+    font-size: 130%;
 }
 .margen {
     margin-top: 10%;
@@ -146,8 +155,8 @@ h2 {
     color: #fff;
 }
 .cont-contact h2 {
+    color: #fff;
     margin-top: 2%;
-    color:#fff;
 }
 .cont-contact img {
    /* background: rgb(189, 4, 96);*/
@@ -173,7 +182,7 @@ h2 {
 .cont-icon a {
     text-decoration: none;
     list-style: none;
-    color:rgb(2, 213, 117);
+    color: rgb(2, 213, 117);
 }
 
 
