@@ -1,11 +1,11 @@
 .demo-5 {
-	--color-text: #fff;
+	--color-text: #eee;
 	--color-bg: #0F1617;
 /*	--color-link: #4dc4a8;*/
 	--color-link-hover: #333;
 /*	--color-info: #ac1122;*/
-	--color-title: #fff;
-	--color-subtitle: #fff;
+	--color-title: #eee;
+	--color-subtitle: #eee;
     --color-subtitle-bg: #4dc4a8;
 }
 
