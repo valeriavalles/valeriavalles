@@ -16,7 +16,7 @@ $('.rote').on('transitionend webkitTransitionEnd MSTransitionEnd', function(e) {
 		$(this).children('.cont-img').children('.negro').css({ "padding-top": "80px" , "opacity" : 1 });
 
     }).mouseleave(function(e) {
-        $(this).children('.cont-img').children('.item-img').animate({ height: '100%', left: '-20', top: '-20', width: '100%'}, 150);
+        $(this).children('.cont-img').children('.item-img').animate({ height: '100%', left: '-18', top: '-20', width: '100%'}, 150);
         $(this).children('.cont-img').children('div').fadeOut(150);
 		$(this).children('.cont-img').children('.negro').css({ "padding-top": "150px" , "opacity" : 0 });
 

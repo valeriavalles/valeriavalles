@@ -291,6 +291,7 @@ hr {
     font-size: 2.3em;
     font-weight: bold;
     height: 100%; 
+    width: 100%;
     /*padding-top: 120px;*/
     position: absolute;
     text-align: center;
@@ -386,6 +387,10 @@ i:hover {
 .btn-demo {
     /*background: rgba(0, 110, 255, 0.562) ;*/
     color: #000;
+}
+.item-border.three{
+    padding-left: 0;
+    padding-right: 0;
 }
 /* RESPONSIVE */
 
