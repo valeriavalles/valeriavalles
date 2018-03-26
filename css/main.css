@@ -214,6 +214,7 @@ hr {
 .lyft {
     margin-left:25%; 
 }
+
 .pinteres img {
     width: 100%;
     /*margin-left: 65%;*/
@@ -421,5 +422,8 @@ i:hover {
     }
     .cont-int.full {
         margin-left: 25%;
+    }
+    .lyft img {
+        margin-bottom: 36.5%;
     }
 } 
