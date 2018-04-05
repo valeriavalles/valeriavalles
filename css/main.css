@@ -12,7 +12,8 @@
     
 }
 .navbar-default .navbar-nav > li > a:hover{
-    color: rgb(2, 213, 117);
+    color:  #4dc4a8;
+    /*color: rgb(2, 213, 117);*/
 }
 .logo {
     width: 45px;
@@ -258,11 +259,12 @@ hr {
     color: rgb(244, 244, 244);
 }
 .cont-icon {
-    margin-bottom: 2%;
+    margin-bottom: 5%;
 }
 .cont-icon a {
     text-decoration: none;
     list-style: none;
+    color: #4dc4a8;
     color: rgb(2, 213, 117);
 }
 
@@ -306,7 +308,7 @@ hr {
 	transition:0.2s;
 }
 .gepic .negro  {
-	display: block;
+	display: none;
 	font-size: 1.4em;
 	font-weight: normal;
 }
@@ -325,7 +327,10 @@ hr {
 
 
 .descargar {
-    font-size: 40px;
+   /* font-size: 40px;*/
+}
+.btn-descargar {
+    font-size: 35px
 }
 i:hover {
     color: #fff;
@@ -334,6 +339,11 @@ i:hover {
  margin-top: 5%;
  font-weight: 800;
 }
+.contactame {
+    margin-bottom: 5%;
+}
+/*---FOOTER ---*/
+
 
 /*---- INTERESES ----*/
 
@@ -415,6 +425,7 @@ i:hover {
     .Arte {
         margin-left: 0%;
     }
+    
 }
 @media (min-width: 968px) {
     .item-conflic {
@@ -425,5 +436,11 @@ i:hover {
     }
     .lyft img {
         margin-bottom: 36.5%;
+    }
+    .margen-contact {
+        margin-left: 23.5%;
+    }
+    .contactame {
+        margin-bottom: 3%;
     }
 } 
