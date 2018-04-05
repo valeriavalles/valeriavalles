@@ -86,7 +86,7 @@ section {
     padding-right: 0;
 }
 .margin h2 {
-    font-weight: 700;
+    font-weight: 800;
     color: #000;
 }
 .content__inner {
@@ -98,6 +98,10 @@ section {
    /* border-radius: 5px;*/
     padding: 2%;
     overflow: hidden;
+    font-family: 'Tenor Sans', sans-serif;
+}
+.content-de-mi h1 {
+    font-weight: 900;
     font-family: 'Tenor Sans', sans-serif;
 }
 .content-de-mi-2{
@@ -128,9 +132,10 @@ h2 {
     padding-right: 0;*/
     
 }
-.react {
+
+/*.react {
     background: rgb(7, 214, 214) ;
-}
+}*/
 .item-border {
     display: inline-block;
    /* border: 1px solid rgb(2, 213, 117);*/
@@ -159,7 +164,8 @@ h2 {
 .space {
     padding-left: 0;
     padding-right: 0;
-    background: #e9c3b8ab;
+    /*background: #e9c3b8ab;*/
+    background: rgb(118, 154, 232);
 }
 .three {
     background: #d1e1e0 ;
@@ -174,13 +180,23 @@ h2 {
 hr {
     color: black;
 }
+.skill {
+    padding-top: 1.5%;
+    border-radius: 5px;
+    min-height: 120px;
+    transition: all 1.5s ease-in-out;
+    background: rgb(8, 32, 37);
+    
+}
 .thumbnail {
+    height: 23vh;
     transition: all 1.5s ease-in-out;
     border: none;
     background: rgb(8, 32, 37);
+   
   
   }
-.thumbnail h6 {
+.skill h6 {
     color: #eee;
   }
   
@@ -196,7 +212,8 @@ hr {
     font-weight: 900;
   }
 .item img {
-    width: 30%;
+    width: 85%;
+    margin-left: 8%;
 }
 .item-conflic {
     margin-bottom: 4%;
@@ -336,14 +353,17 @@ i:hover {
     color: #fff;
 }
 .contactame h2 {
- margin-top: 5%;
+ margin-top: 4%;
+ margin-bottom: 0;
  font-weight: 800;
 }
 .contactame {
     margin-bottom: 5%;
 }
 /*---FOOTER ---*/
-
+.raya.white {
+    background: #fff;
+}
 
 /*---- INTERESES ----*/
 
@@ -403,6 +423,9 @@ i:hover {
     padding-left: 0;
     padding-right: 0;
 }
+.cv {
+    margin-left: 1%;
+}
 /* RESPONSIVE */
 
 
@@ -425,6 +448,19 @@ i:hover {
     .Arte {
         margin-left: 0%;
     }
+    .skill {
+       
+        min-height: 100px;
+        background: rgb(8, 32, 37);
+        
+    }
+    .item img {
+        width: 55%;
+        margin-left: 20%;
+    }
+    .margen-contact {
+        margin-left: 4%;
+    }
     
 }
 @media (min-width: 968px) {
@@ -438,9 +474,16 @@ i:hover {
         margin-bottom: 36.5%;
     }
     .margen-contact {
-        margin-left: 23.5%;
+        margin-left: 24.5%;
     }
+    
     .contactame {
+        margin-bottom: 3%;
+    }
+    .cv {
+        margin-left: 0%;
+    }
+    .cont-icon {
         margin-bottom: 3%;
     }
 } 
