@@ -103,6 +103,7 @@ section {
 .content-de-mi h1 {
     font-weight: 900;
     font-family: 'Tenor Sans', sans-serif;
+    margin-bottom: 0%;
 }
 .content-de-mi-2{
     overflow: hidden;
@@ -113,6 +114,7 @@ section {
 }
 .content-de-mi-2 h2 {
     color: #fff;
+    margin-bottom: 1%;
 }
 .parrafo  {
     margin-top: 1.8%;
@@ -367,6 +369,7 @@ i:hover {
 
 /*---- INTERESES ----*/
 
+
 .interes {
     width: 100%;
     /*margin: 3%;*/
@@ -398,6 +401,13 @@ i:hover {
 }
 .raya:hover {
     background: black;
+}
+.port-raya {
+    display: inline-block;
+    width: 31rem;
+    height: 0.5rem;
+    background: #fff;
+    margin-bottom: 5%;
 }
 .parrafo.title {
     text-align: center;
