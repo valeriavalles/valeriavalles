@@ -28,14 +28,11 @@
 .cont-present {
     text-align: center;
     margin-top: 15%;
-   /* font-family: 'Francois One', sans-serif;*/
     font-family: 'Fjalla One', sans-serif;
     color: rgb(10, 26, 15);
-    /*font-weight: 800;
-    font-size: 900px;*/
+    
 }
 .cont-present h1 {
-    /*font-weight: 800;*/
     font-size: 500%;
 }
 .cont-present:hover {
@@ -91,7 +88,6 @@ section {
 }
 .content__inner {
     font-family: 'Tenor Sans', sans-serif;
-    /*font-family: 'Love Ya Like A Sister', cursive;*/
 }
 .content-de-mi{
     background: #eee;
@@ -100,8 +96,9 @@ section {
     overflow: hidden;
     font-family: 'Tenor Sans', sans-serif;
 }
-.content-de-mi h1 {
+.content-de-mi h2 {
     font-weight: 900;
+    font-size: 32px;
     font-family: 'Tenor Sans', sans-serif;
     margin-bottom: 0%;
 }
@@ -113,8 +110,10 @@ section {
     font-family: 'Tenor Sans', sans-serif;
 }
 .content-de-mi-2 h2 {
-    color: #fff;
+    color: #000;
     margin-bottom: 1%;
+    font-size: 31px;
+    font-family: 'Tenor Sans', sans-serif;
 }
 .parrafo  {
     margin-top: 1.8%;
@@ -123,9 +122,9 @@ section {
 .margen {
     margin-top: 10%;
 }
-h2 {
-    margin-bottom: 4%;
-}
+/*h2 {
+    margin-bottom: 0.5%;
+}*/
 .item {
     text-align: center;
    /* border: 1px solid rgb(2, 213, 117);*/
@@ -190,14 +189,7 @@ hr {
     background: rgb(8, 32, 37);
     
 }
-.thumbnail {
-    height: 23vh;
-    transition: all 1.5s ease-in-out;
-    border: none;
-    background: rgb(8, 32, 37);
-   
-  
-  }
+
 .skill h6 {
     color: #eee;
   }
@@ -216,6 +208,9 @@ hr {
 .item img {
     width: 85%;
     margin-left: 8%;
+}
+.item h3 {
+    font-weight: 600;
 }
 .item-conflic {
     margin-bottom: 4%;
@@ -258,6 +253,7 @@ hr {
 .cont-contact h2 {
     color: #fff;
     margin-top: 2%;
+    font-family: 'Tenor Sans', sans-serif;
 }
 .cont-contact img {
    /* background: rgb(189, 4, 96);*/
@@ -358,6 +354,7 @@ i:hover {
  margin-top: 4%;
  margin-bottom: 0;
  font-weight: 800;
+ font-family: 'Tenor Sans', sans-serif;
 }
 .contactame {
     margin-bottom: 5%;
@@ -406,7 +403,7 @@ i:hover {
     display: inline-block;
     width: 31rem;
     height: 0.5rem;
-    background: #fff;
+    background: #000;
     margin-bottom: 5%;
 }
 .parrafo.title {
